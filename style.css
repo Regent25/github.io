@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  text-align: center;
+  background-image: linear-gradient(rgb(137, 137, 203),white 30% 70%, rgb(244, 205, 153));
+  
+padding: 2%;}
+.name {
+  background-image: url(https://cdn-st3.rtr-vesti.ru/vh/pictures/hd/409/042/2.jpg);
+  height: 10%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 2% 0;
+  border-bottom: 2px solid black;
+}
+
+img {
+  border-radius: 40%;
+  border: 3px ridge black;
+  margin-top: 10px;
+  width: 400px;
+}
+section {
+  margin: 5px 0;
+}
+
+h3 {
+  font-style: italic;
+}
+p {
+  margin: 3% 2%;
+  font-family: 'Ysabeau Office', sans-serif;
+  font-size: 120%;
+}
+span {
+  font-weight: 600;
+  color: rgb(26, 26, 232);
+}
+
+.other {
+  font-weight: bold;
+}
+.contacts {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  margin: 3% 0;
+}
+a {
+  color: black;
+  background-color: rgb(253, 238, 23);
+  padding: 3px 8px;
+  border: 2px solid blue;
+  font-weight: bolder;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+  font-size: 120%;
+}
+a:active {
+  color: blue;
+  font-size: 120%;
+}
+footer {
+  background-color: darkorange;
+  padding: 1%;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+@media (min-width: 769px) {
+  .container {
+    width: 85%;
+    border: 2px solid black;
+  }
+ main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 4%;
+ }
+  img {
+    width: 320px;
+    margin: 10px 0;
+ }
+  .about {
+    max-width: 45%;;
+  }
+  section {
+    width: 100%;
+  }
+p {
+  font-size: 150%;
+  margin: 2%;
+}
+  nav {
+  width: 100%;
+  }
+}
+@media (min-width: 993px) {
+  .container {
+    width: 80%;
+  }
+  main {
+    padding: 2%;
+  }
+  .about {
+    width: 70%;
+  }
+  p {
+    margin: 1%;
+  }
+  footer {
+    padding: 1.2% 20px;
+    font-weight: 200;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    min-width: 75%;
+    max-width: 1200px;
+  }
+  section {
+    width: 70%;
+  }
+}
