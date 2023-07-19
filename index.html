@@ -1,51 +1,109 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Ysabeau+Office:ital,wght@1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>Обо мне</title>
+  <title>Resume</title>
 </head>
 <body>
- <div class="container">
-  <header class="name">
-    <h1>Роман Федоренко</h1>
-  </header>
-  <main>
-    <img src="https://sun9-62.userapi.com/c5178/u29456555/86727125/y_afc21438.jpg" alt="foto">
-      <section class="about">
-        <h3><em>Общая информация</em></h3>
-        <p>Начинающий Junior javascrypt developer, наверное как и все желающий 
-            улучшить качество своей жизни. Путь обучения не прост,объём информации не мал, но 
-            я стараюсь.</p>
-      </section>
-      <section>
-            <h3>Деловые качества:</h3>
-            <p class="other">Ответственность, пунктуальность, обучаемость(но это не точно).</p>
-            <p>В связи с ограниченными возможностями, работу по окончанию <span>Elbrus</span>a буду искать удалённую.</p>
-      </section>
-      <aside>
-           <p>Позитивный, непотопляемый как "Титаник" человек. С различными увлечениями
-              и интересами в различных стихиях: от подводного мира,
-              и до небес. С техническим складом ума и минимальными необходимыми для работы навыками.</p>
-      </aside>
-      <nav class="contacts">
+  <div class="container">
+    <div class="left__side">
+      <div class="profileText">
+        <div class="imgBox">
+          <img src="my_1.png" alt="foto">
+        </div>
+        <h2>Roman Fedorenko<br><span>Web developer</span> </h2>
+      </div>
+      <div class="contactInfo">
+        <h3 class="title">Contact Info</h3>
         <ul>
-          <li><a href="tel:+79944227779">Телефон</a></li>
-          <li><a href="https://vk.com/id29456555" target="_blank">В контакте</a></li>
-          <li><a href="mailto:romchik25f@mail.ru">Почта</a></li>
-          <li><a href="https://github.com/Regent25" target="_blank">github.</a></li>
+          <li>
+            <span class="icon"><i class="far fa-envelope"></i></span>
+            <span class="text">romchik25f"mail.ru</span>
+          </li>
+          <li>
+            <span class="icon"><i class="fas fa-paper-plane"></i></span>
+            <span class="text">https://t.me/Regent25</span>
+          </li>
+          <li>
+            <span class="icon"><i class="fab fa-linkedin"></i></span>
+            <span class="text">LinkedIn</span>
+          </li>
+          <li>
+            <span class="icon"><i class="fab fa-github"></i></span>
+            <span class="text">GitHub</span>
+          </li>
+          <li>
+            <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="text">Russia, Leningrad region, Gatchina</span>
+          </li>
         </ul>
-      </nav>
-    </main>
-  <footer>
-    &copy; 2023г. гор. Гатчина
-  </footer>
- </div>
+      </div>
+      <div class="contactInfo education">
+        <h3 class="title">Education</h3>
+        <ul>
+          <li>
+            <h5>2008-2013</h5>
+            <h4>Russian university of transport</h4>
+            <h4>University name</h4>
+          </li>
+          <li>
+            <h5>2024</h5>
+            <h4>Elbrus bootcamp</h4>
+            <h4>Course name</h4>
+          </li>
+        </ul>
+      </div>
+      <div class="contactInfo language">
+        <h3 class="title">Languages</h3>
+        <ul>
+          <li>
+            <span class="text">English</span>
+            <span class="persent">
+              <div style="width: 40%;"></div>
+            </span>
+          </li>
+          <li>
+            <span class="text">Russian</span>
+            <span class="persent">
+              <div style="width: 90%;"></div>
+            </span>
+          </li>
+          <li>
+            <span class="text">Belorussian</span>
+            <span class="persent">
+              <div style="width: 70%;"></div>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="right__side">
+      <div class="about">
+        <h2 class="title2">Profile</h2>
+        <p>Начинающий Junior javascrypt developer, наверное как и все желающий 
+          улучшить качество своей жизни. Путь обучения не прост,объём информации не мал, но я стараюсь.</p><br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam corrupti, quasi exercitationem dignissimos porro facilis deserunt! Debitis dolorem placeat praesentium neque nisi sit consequatur error aut vitae facilis deleniti, beatae expedita obcaecati temporibus accusantium quam dolore dolor molestiae perspiciatis voluptatum soluta recusandae! Nam soluta sapiente mollitia distinctio eaque pariatur consectetur.</p><br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam corrupti, quasi exercitationem dignissimos porro facilis deserunt! Debitis dolorem placeat praesentium neque nisi sit consequatur error aut vitae facilis deleniti, beatae expedita obcaecati temporibus accusantium quam dolore dolor molestiae perspiciatis voluptatum soluta recusandae! Nam soluta sapiente mollitia distinctio eaque pariatur consectetur.</p>
+      </div>
+      <div class="about skills">
+      <h2 class="title2">Professional skills</h2>
+        <div class="box">
+          <h4>HTML</h4>
+        </div>
+        <div class="box">
+          <h4>CSS</h4>
+        </div>
+        <div class="box">
+          <h4>Javascrypt</h4>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
