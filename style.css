@@ -158,6 +158,11 @@ p {
   align-items: center;
   margin-top: 20px;
 }
+.notes {
+  font-size: larger;
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+}
 
 @media screen and (min-width: 576px) {
   .container {
